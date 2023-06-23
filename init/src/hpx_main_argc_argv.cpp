@@ -15,6 +15,6 @@ int hpx_main(int argc, char* argv[])
 {
     // Invoke hpx_startup::user_main
     int const result = hpx_startup::user_main(argc, argv);
-    hpx::finalize();
+    hpx::disconnect();
     return result;
 }

@@ -1,4 +1,4 @@
-# Copyright (c) 2019-2020 The STE||AR-Group
+# Copyright (c) 2019-2023 The STE||AR-Group
 #
 # SPDX-License-Identifier: BSL-1.0
 # Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -13,6 +13,7 @@ set(init_runtime_headers
     hpx/hpx_init_impl.hpp
     hpx/hpx_init_params.hpp
     hpx/hpx_main_winsocket.hpp
+    hpx/hpx_on_finalize.hpp
     hpx/hpx_start.hpp
     hpx/hpx_start_impl.hpp
     hpx/hpx_suspend.hpp
